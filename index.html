@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ジャンケンゲーム</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+
+
+  </head>
+  <body>
+
+    <div>
+
+      <div class="box">
+        <h1>相手</h1>
+        <div class="comhands" id="comhands">
+        </div>
+      </div>
+
+      <div class="your">
+        <div class="your-hand">
+          <img src="images/guu.png" alt="" id="guu" onclick="judge1()">
+        </div>
+        <div class="your-hand">
+          <img src="images/tyoki.png" alt="" id="tyoki" onclick="judge2()">
+        </div>
+        <div class="your-hand">
+          <img src="images/paa.png" alt="" id="paa" onclick="judge3()">
+        </div>
+      </div>
+
+      <div class="box">
+        <h2 id="response"></h2>
+      </div>
+
+    </div>
+    
+
+
+    <script type="text/javascript" src="index.js"></script>
+
+  </body>
+</html>

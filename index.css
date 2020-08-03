@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+.box {
+  margin: 10px 10px 30px;
+}
+
+.comhands {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: solid 1px black;
+}
+
+.your {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.your-hand {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+#guu {
+  width: 200px;
+  height: 200px;
+}
+#tyoki {
+  width: 200px;
+  height: 200px;
+}
+#paa {
+  width: 200px;
+  height: 200px;
+}
+
+#response {
+  text-align: center;
+}
